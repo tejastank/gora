@@ -519,7 +519,7 @@ implements Configurable {
   }
 
   @SuppressWarnings("unchecked")
-  private HBaseMapping readMapping(String filename) throws IOException {
+  protected HBaseMapping readMapping(String filename) throws IOException {
 
     HBaseMapping mapping = new HBaseMapping();
 
